@@ -268,7 +268,7 @@
 
               <div class="tabs-2 mt-2">
                 <div class="tab3 active" onclick="changeTab3(this)">Body</div>
-                <div class="tab3">Header</div>
+                <div class="tab3" onclick="changeTab3(this)">Header</div>
               </div>
 
               <div class="d-flex justify-content-end my-2">
@@ -292,24 +292,24 @@
                     <i style="color: green" class="fas fa-solid fa-plus"></i>
                     Add Parameter
                   </button>
-                  <button type="button" class="btn">
+                  <button type="button" class="btn border">
                     <i style="color: orange" class="fi fi-rs-copy-alt"></i>
                     Copy
                   </button>
-                  <button type="button" class="btn">
+                  <button type="button" class="btn border">
                     <i style="color: green" class="fi fi-tr-book-copy"></i>
                     Paste
                   </button>
-                  <button type="button" class="btn">
+                  <button type="button" class="btn border">
                     <i style="color: red" class="fi fi-rs-trash"></i> Delete
                   </button>
-                  <button type="button" class="btn ms-2">
+                  <button type="button" class="btn ms-2 border">
                     <i
                       style="color: orange"
                       class="fi fi-ts-chevron-double-down"
                     ></i>
                   </button>
-                  <button type="button" class="btn">
+                  <button type="button" class="btn border">
                     <i
                       style="color: orange"
                       class="fi fi-ts-chevron-double-up"
@@ -464,9 +464,9 @@
         // Add active class to the clicked tab
         tab.classList.add("active");
       }
-      function changeTab(tab) {
+      function changeTab3(tab) {
         // Remove active class from all tabs
-        var tabs = document.getElementsByClassName("tab");
+        var tabs = document.getElementsByClassName("tab3");
         for (var i = 0; i < tabs.length; i++) {
           tabs[i].classList.remove("active");
         }

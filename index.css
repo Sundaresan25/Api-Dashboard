@@ -32,14 +32,20 @@ body {
 }
 
 .subCon .accordion-button::before {
+  font-size: 10px;
   font-family: "FontAwesome";
-  content: "\f067";
+  content: "\f068";
+  border-radius: 100%;
+  padding: 2px;
+  border: 1px solid #212529bf;
   float: right;
   margin-left: 5px;
 }
 
 .subCon .accordion-button.collapsed::before {
-  content: "\f068";
+  content: "\f067";
+  padding: 2px;
+  border: 1px solid #212529bf;
 }
 
 .appCon {
