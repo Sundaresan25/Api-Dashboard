@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dashboard</title>
+    <!-- Bootstrap cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Font awesome Icons-->
+
+    <script
+      src="https://kit.fontawesome.com/7186010b72.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Flat icons -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-thin-rounded/css/uicons-thin-rounded.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-thin-straight/css/uicons-thin-straight.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+
+    <!--css  -->
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="row m-0">
+      <!--sidebar-->
+
+      <section class="sidebarCon p-0">
+        <div class="sidebar" id="sidebar"></div>
+      </section>
+
+      <!-- main -->
+
+      <div class="col p-0">
+        <!-- topbar -->
+        <section class="topBar">
+          <div class="d-flex justify-content-end align-items-center">
+            <p class="mx-2">
+              <i class="fas fa-solid fa-cloud"></i>Radsco Solutions Private
+              limited
+              <i class="fas fa-solid fa-caret-down"></i>
+            </p>
+            <p class="mx-2">
+              sing velan <i class="fas fa-solid fa-caret-down"></i>
+            </p>
+          </div>
+        </section>
+
+        <div class="row m-0">
+        
+            <!-- sideCon -->
+          <section class="col-lg-2 col-md-4 h-100 ps-0 subCon">
+            <div class="bg-white" style="min-height: 90vh">
+              <div class="d-flex justify-content-between bg-white p-2">
+                <p class="p-1">
+                  <i
+                    class="fi fi-rr-settings"
+                    style="
+                      color: rgb(208, 242, 250);
+                      vertical-align: middle;
+                      margin-bottom: -2px;
+                    "
+                  ></i>
+                  All Services
+                </p>
+
+                <i class="fi fi-rr-settings-sliders"></i>
+              </div>
+
+              <div id="accordion" class="px-2">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      <i
+                        class="fas fa-solid fa-code mx-2"
+                        style="color: skyblue"
+                      ></i>
+                      QatarFCService (1.0)
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show container mt-2"
+                    aria-labelledby="headingOne"
+                  >
+                    <div class="accordion-body mx-2">
+                      <p>
+                        <i class="fi fi-rs-document mx-1 text-muted"></i
+                        >setKPNSToken
+                      </p>
+                      <p>
+                        <i class="fi fi-rs-document mx-1 text-muted"></i
+                        >setKPNSToken
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      <i
+                        class="fas fa-solid fa-code mx-2"
+                        style="color: skyblue"
+                      ></i>
+                      QatarFCService (1.0)
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse container m-2"
+                    aria-labelledby="headingTwo"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        <i class="fi fi-rs-document mx-1 text-muted"></i
+                        >setKPNSToken
+                      </p>
+                      <p>
+                        <i class="fi fi-rs-document mx-1 text-muted"></i
+                        >setKPNSToken
+                      </p>
+                      <p>
+                        <i class="fi fi-rs-document mx-1 text-muted"></i
+                        >setKPNSToken
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--App-->
+          <section class="col-lg-10 col-md-8 p-0 appCon">
+            <div class="bg-white" style="height: 5vh"></div>
+
+            <div class="headWrap d-flex">
+              <p class="pe-5 py-2 mb-0">Clip App Assets</p>
+              <p class="py-2 px-5 mb-0">Publish</p>
+            </div>
+
+            <div class="headsubWrap d-flex">
+              <p class="p-2 mb-0">
+                <i class="fi fi-tr-folder-tree mx-2"></i>Orchestration
+              </p>
+              <p class="p-2 mb-0"><i class="fi fi-tr-clone mx-2"></i>Object</p>
+              <p class="p-2 mb-0">
+                <i class="fi fi-tr-chart-waterfall mx-2"></i> Workflow
+              </p>
+              <p class="p-2 mb-0">
+                <i class="fi fi-tr-file-invoice mx-2"></i> Rules
+              </p>
+              <p class="p-2 mb-0">
+                <i class="fi fi-tr-broadcast-tower mx-2"></i> Engagement
+              </p>
+            </div>
+
+            <!--  -->
+            <div class="apiCon py-4">
+              <div class="tabs">
+                <div class="tab1 active" onclick="changeTab1(this)">
+                  Service Definition
+                </div>
+                <div class="tab1" onclick="changeTab1(this)">
+                  Operations List
+                </div>
+                <div class="tab1" onclick="changeTab1(this)">
+                  CRMCreateServiceWithoutPreProcessor
+                </div>
+              </div>
+              <div class="form row m-0 mt-3">
+                <div class="col-md-8 my-2">
+                  <label>Name<span style="color: red">*</span></label>
+                  <input class="form-control" value="CRMService" />
+                </div>
+                <div class="col-md-4 my-2">
+                  <label
+                    >Operation Security level
+                    <i
+                      style="color: #0e4d7a"
+                      class="fi fi-rr-interrogation"
+                    ></i>
+                  </label>
+                  <select class="form-select">
+                    <option>Public (All users)</option>
+                  </select>
+                </div>
+                <label>Target Url</label>
+                <div class="col-md-4 my-2 pe-0">
+                  <input
+                    class="form-control"
+                    value="https//:www.campuzone.com"
+                    style="
+                      border-top-right-radius: 0px;
+                      border-bottom-right-radius: 0px;
+                      background-color: #f6f6f6;
+                    "
+                  />
+                </div>
+                <div class="col-md-8 my-2 ps-0">
+                  <input
+                    class="form-control"
+                    value="https//:www.campuzone.com"
+                    style="
+                      border-top-left-radius: 0px;
+                      border-bottom-left-radius: 0px;
+                    "
+                  />
+                </div>
+                <div class="col-md-12 my-2">
+                  <p style="color: #003e71; font-weight: 700">
+                    <i class="fas fa-solid fa-chevron-right"></i> Advanced
+                  </p>
+                  <label>Description</label>
+                  <textarea class="form-control"></textarea>
+                </div>
+              </div>
+            </div>
+
+            <div class="responseCon">
+              <div class="tabs">
+                <div class="tab2 active" onclick="changeTab2(this)">
+                  Request Input
+                </div>
+                <div class="tab2" onclick="changeTab2(this)">
+                  Response output
+                </div>
+              </div>
+
+              <div class="tabs-2 mt-2">
+                <div class="tab3 active" onclick="changeTab3(this)">Body</div>
+                <div class="tab3">Header</div>
+              </div>
+
+              <div class="d-flex justify-content-end my-2">
+                <p class="mx-2">
+                  Enable pass-through:
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    class="mb-0"
+                  />
+                </p>
+                <p class="mx-2">
+                  Input Body
+                  <i style="color: #0e4d7a" class="fi fi-rr-interrogation"></i>
+                </p>
+              </div>
+
+              <div class="d-flex justify-content-between my-2 btnWrap my-2 p-2">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn mx-2 bg-white border">
+                    <i style="color: green" class="fas fa-solid fa-plus"></i>
+                    Add Parameter
+                  </button>
+                  <button type="button" class="btn">
+                    <i style="color: orange" class="fi fi-rs-copy-alt"></i>
+                    Copy
+                  </button>
+                  <button type="button" class="btn">
+                    <i style="color: green" class="fi fi-tr-book-copy"></i>
+                    Paste
+                  </button>
+                  <button type="button" class="btn">
+                    <i style="color: red" class="fi fi-rs-trash"></i> Delete
+                  </button>
+                  <button type="button" class="btn ms-2">
+                    <i
+                      style="color: orange"
+                      class="fi fi-ts-chevron-double-down"
+                    ></i>
+                  </button>
+                  <button type="button" class="btn">
+                    <i
+                      style="color: orange"
+                      class="fi fi-ts-chevron-double-up"
+                    ></i>
+                  </button>
+                </div>
+
+                <div class="d-flex requestBtn align-items-center">
+                  <p class="mx-2 mb-0">
+                    Request Template
+                    <i
+                      style="color: #0e4d7a"
+                      class="fi fi-rr-interrogation"
+                    ></i>
+                  </p>
+                  <div>
+                    <button class="btn show">Show</button>
+                    <button class="btn hide">Hide</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tableCon p-2">
+                <div class="d-flex justify-content-end my-2">
+                  <div class="col-md-3">
+                    <div class="input-group">
+                      <input
+                        class="form-control"
+                        style="border-right: none"
+                        placeholder="Search"
+                      />
+                      <div class="input-group-append">
+                        <span
+                          style="border-left: none; border-radius: 0px"
+                          class="input-group-text bg-white bor h-100"
+                          ><i class="fas fa-search"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <table class="table table-bordered">
+                  <thead>
+                    <tr class="text-uppercase">
+                      <th scope="col">
+                        <input class="form-check-input" type="checkbox" />
+                      </th>
+                      <th scope="col">Name</th>
+                      <th scope="col">
+                        Value
+                        <i
+                          style="color: #0e4d7a"
+                          class="fi fi-rr-interrogation"
+                        ></i>
+                      </th>
+                      <th class="col-md-2 border-0"></th>
+
+                      <th scope="col">Test Value</th>
+                      <th scope="col">Default Value</th>
+                      <th scope="col">Data Type</th>
+                      <th scope="col">Encode</th>
+                      <th scope="col">Description</th>
+                    </tr>
+                  </thead>
+                
+                    <tbody id="tableBody">
+                        <!-- Table rows will be dynamically generated here -->
+                      </tbody>
+             
+                  </tbody>
+                </table>
+
+                <div class="d-flex justify-content-between border-bottom">
+                  <div class="col-6">
+                    <small
+                      >Default Value will be used if Test value is empty</small
+                    >
+                  </div>
+                  <div class="col-6 p-0">
+                    <div class="row m-0">
+                      <div class="col-6 p-0">
+                        <select class="form-select w-100">
+                          <option>m100010500001</option>
+                        </select>
+                      </div>
+
+                      <div class="col-6 p-0 text-end">
+                        <button class="btn saveBtn mb-2">
+                          Save and Fetch Response
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-end mt-2">
+                  <button class="btn cancelBtn">Cancel</button>
+                  <button class="btn saveBtn">Save Operation</button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Array of icon names
+      const iconNames = [
+        "fi fi-rr-cube",
+        "fi fi-rr-apps",
+        "fi fi-tr-api",
+        "fi fi-rs-comment",
+        "fi fi-rs-cloud",
+      ];
+      // Get the icon container element
+      const iconContainer = document.getElementById("sidebar");
+
+      // Loop through the icon names and create the div elements
+      iconNames.forEach((iconName) => {
+        const iconDiv = document.createElement("div");
+        iconDiv.classList.add(
+          "iconContainer",
+          "d-flex",
+          "justify-content-center",
+          "align-items-center",
+          "py-2"
+        );
+        iconDiv.innerHTML = `<i class="${iconName}"></i>`;
+        iconContainer.appendChild(iconDiv);
+      });
+
+      function changeTab1(tab) {
+        // Remove active class from all tabs
+        var tabs = document.getElementsByClassName("tab1");
+        for (var i = 0; i < tabs.length; i++) {
+          tabs[i].classList.remove("active");
+        }
+
+        // Add active class to the clicked tab
+        tab.classList.add("active");
+      }
+
+      function changeTab2(tab) {
+        // Remove active class from all tabs
+        var tabs = document.getElementsByClassName("tab2");
+        for (var i = 0; i < tabs.length; i++) {
+          tabs[i].classList.remove("active");
+        }
+
+        // Add active class to the clicked tab
+        tab.classList.add("active");
+      }
+      function changeTab(tab) {
+        // Remove active class from all tabs
+        var tabs = document.getElementsByClassName("tab");
+        for (var i = 0; i < tabs.length; i++) {
+          tabs[i].classList.remove("active");
+        }
+
+        // Add active class to the clicked tab
+        tab.classList.add("active");
+      }
+
+      var data = [
+        {
+          name: "Feedback rating",
+          value: "Request",
+          testValue: "",
+          defaultValue: "",
+          dataType: "String",
+          encode: "",
+          description: "",
+        },
+        {
+          name: "Type",
+          value: "",
+          testValue: "",
+          defaultValue: "",
+          dataType: "String",
+          encode: "",
+          description: "",
+        },
+        {
+          name: "netPrice",
+          value: "",
+          testValue: "",
+          defaultValue: "",
+          dataType: "String",
+          encode: "",
+          description: "",
+        }, 
+
+        {
+          name: "Type",
+          value: "",
+          testValue: "",
+          defaultValue: "",
+          dataType: "String",
+          encode: "",
+          description: "",
+        },
+        {
+          name: "netPrice",
+          value: "",
+          testValue: "",
+          defaultValue: "",
+          dataType: "String",
+          encode: "",
+          description: "",
+        },  {
+          name: "Type",
+          value: "",
+          testValue: "",
+          defaultValue: "",
+          dataType: "String",
+          encode: "",
+          description: "",
+        },
+        {
+          name: "netPrice",
+          value: "",
+          testValue: "",
+          defaultValue: "",
+          dataType: "String",
+          encode: "",
+          description: "",
+        }, 
+        
+      ];
+
+      // Map data to table rows
+      var tableBody = document.getElementById("tableBody");
+
+      data.forEach(function (item) {
+        var row = document.createElement("tr");
+
+        // Checkbox column
+        var checkboxCell = document.createElement("td");
+        var checkbox = document.createElement("input");
+        checkbox.className = "form-check-input";
+        checkbox.type = "checkbox";
+        checkboxCell.appendChild(checkbox);
+        row.appendChild(checkboxCell);
+
+        // Name column
+        var nameCell = document.createElement("td");
+        nameCell.textContent = item.name;
+        row.appendChild(nameCell);
+
+        // Value column
+        var valueCell = document.createElement("td");
+        valueCell.textContent = item.value;
+        row.appendChild(valueCell);
+
+        // Test Value column
+        var testValueCell = document.createElement("td");
+        testValueCell.style.backgroundColor = "#eeeeee";
+        row.appendChild(testValueCell);
+
+        // Default Value column
+        var defaultValueCell = document.createElement("td");
+        row.appendChild(defaultValueCell);
+
+        // Data Type column
+        var dataTypeCell = document.createElement("td");
+        dataTypeCell.textContent = item.dataType;
+        row.appendChild(dataTypeCell);
+
+        // Encode column
+        var encodeCell = document.createElement("td");
+        var encodeCheckbox = document.createElement("input");
+        encodeCheckbox.className = "form-check-input";
+        encodeCheckbox.type = "checkbox";
+        encodeCell.appendChild(encodeCheckbox);
+        row.appendChild(encodeCell);
+
+        // Description column
+        var descriptionCell = document.createElement("td");
+        row.appendChild(descriptionCell);
+
+        tableBody.appendChild(row);
+      });
+
+      $(".collapse").collapse();
+    </script>
+  </body>
+</html>

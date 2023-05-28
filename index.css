@@ -1,0 +1,223 @@
+body {
+  background-color: #eaeef1;
+  overflow: hidden;
+}
+/* sidebar */
+.sidebarCon {
+  width: 5%;
+}
+.sidebar {
+  background-color: #013e75;
+  min-height: 100vh;
+}
+
+.sidebar .iconContainer {
+  color: white;
+}
+
+.sidebar .iconContainer i {
+  font-size: 35px;
+}
+
+/* topbar */
+
+.topBar {
+  padding: 20px;
+  background-color: #eaeef1;
+}
+
+.topBar p {
+  color: #023d75;
+  margin-bottom: 0;
+}
+
+.subCon .accordion-button::before {
+  font-family: "FontAwesome";
+  content: "\f067";
+  float: right;
+  margin-left: 5px;
+}
+
+.subCon .accordion-button.collapsed::before {
+  content: "\f068";
+}
+
+.appCon {
+  background-color: white;
+  height: 90vh;
+  overflow-y: scroll;
+}
+
+.headWrap {
+  background-color: #eceeed;
+  padding: 0px;
+}
+
+.headWrap p {
+  color: #737b7d;
+  border-right: 0.1px solid gray;
+}
+
+.headsubWrap {
+  background-color: white;
+  color: #c1c1c1;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.apiCon .tabs {
+  margin-top: 20px;
+  padding: 0;
+  position: relative;
+  display: flex;
+}
+
+.apiCon .tab1 {
+  margin: 0 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+  background-color: #013e75;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.apiCon .tab1.active {
+  border: 2px solid #013e75;
+  border-bottom: 1px solid white;
+  background-color: white;
+  color: #013e75;
+}
+
+.apiCon .tabs::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.9px;
+  background-color: #013e75;
+}
+
+.apiCon .tabs .tab1.active {
+  position: relative;
+  z-index: 1;
+}
+
+.apiCon .tabs .tab1.active::after {
+  content: "";
+  position: absolute;
+  bottom: -0.9px;
+  left: 0;
+  width: 100%;
+  height: 0.9px;
+  background-color: white;
+}
+
+.responseCon .tabs {
+  margin-top: 20px;
+  padding: 0;
+  position: relative;
+  display: flex;
+}
+
+.responseCon .tabs .tab2 {
+  margin: 0 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #8c979f;
+  background-color: #eef0ee;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.responseCon .tabs .tab2.active {
+  border: 2px solid #013e75;
+  border-bottom: 2px solid white;
+  background-color: white;
+  color: #013e75;
+  font-weight: 500;
+}
+
+.responseCon .tabs::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.9px;
+  background-color: #013e75;
+}
+
+.responseCon .tabs .tab2.active {
+  position: relative;
+  z-index: 1;
+}
+
+.responseCon .tabs .tab2.active::after {
+  content: "";
+  position: absolute;
+  bottom: -0.9px;
+  left: 0;
+  width: 100%;
+  height: 0.9px;
+  background-color: white;
+}
+
+.responseCon .tabs-2 {
+  margin-top: 20px;
+  padding: 0;
+  position: relative;
+  display: flex;
+}
+
+.responseCon .tabs-2 .tab3 {
+  margin: 0 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #8c979f;
+
+  border-radius: 5px 5px 0px 0px;
+}
+
+.responseCon .tabs-2 .tab3.active {
+  border-bottom: 2px solid #013e75;
+
+  color: #013e75;
+}
+
+.responseCon .tabs-2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.5px;
+  background-color: #8c979f;
+}
+
+.btnWrap .btn-group .btn {
+  background-color: #fafafa;
+}
+
+.requestBtn div {
+  background-color: #f4f4f2;
+  padding: 2px;
+}
+
+.requestBtn .show {
+  color: #545d6b;
+  border: none;
+}
+
+.requestBtn .hide {
+  background-color: #003e74;
+  color: white;
+  border: none;
+}
+
+.saveBtn {
+  background-color: #003e74;
+  color: white;
+  text-transform: uppercase;
+}
+.cancelBtn {
+  text-transform: uppercase;
+}
